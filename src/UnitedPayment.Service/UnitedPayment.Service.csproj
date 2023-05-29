@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnitedPayment.Dto\UnitedPayment.DTO.csproj" />
+    <ProjectReference Include="..\UnitedPayment.Integration\UnitedPayment.Integration.NVI\UnitedPayment.Integration.NVI.csproj" />
+    <ProjectReference Include="..\UnitedPayment.Integration\UnitedPayment.Integration.Payzee\UnitedPayment.Integration.Payzee.csproj" />
+    <ProjectReference Include="..\UnitedPayment.Repository\UnitedPayment.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
